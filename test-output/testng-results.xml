@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[broswer is launched]]>
+    </line>
+    <line>
+      <![CDATA[Url is pssing is over]]>
+    </line>
+    <line>
+      <![CDATA[login operation is success]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to tasks Tab]]>
+    </line>
+    <line>
+      <![CDATA[Customer created succesfully]]>
+    </line>
+    <line>
+      <![CDATA[logout operation is success]]>
+    </line>
+    <line>
+      <![CDATA[all cookies are cleared]]>
+    </line>
+    <line>
+      <![CDATA[Broswer is closed]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="25393" started-at="2021-09-08T13:46:36Z" finished-at="2021-09-08T13:47:02Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="25393" started-at="2021-09-08T13:46:36Z" finished-at="2021-09-08T13:47:02Z">
+      <class name="TestSCripts.CreateCustomerTest">
+        <test-method status="PASS" signature="BeforeConfiguation(java.lang.String)[pri:0, instance:TestSCripts.CreateCustomerTest@47c62251]" name="BeforeConfiguation" is-config="true" duration-ms="11235" started-at="2021-09-08T13:46:36Z" finished-at="2021-09-08T13:46:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[broswer is launched]]>
+            </line>
+            <line>
+              <![CDATA[Url is pssing is over]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BeforeConfiguation -->
+        <test-method status="PASS" signature="login()[pri:0, instance:TestSCripts.CreateCustomerTest@47c62251]" name="login" is-config="true" duration-ms="773" started-at="2021-09-08T13:46:47Z" finished-at="2021-09-08T13:46:48Z">
+          <reporter-output>
+            <line>
+              <![CDATA[login operation is success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="f()[pri:0, instance:TestSCripts.CreateCustomerTest@47c62251]" name="f" duration-ms="10132" started-at="2021-09-08T13:46:48Z" finished-at="2021-09-08T13:46:58Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigated to tasks Tab]]>
+            </line>
+            <line>
+              <![CDATA[Customer created succesfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:TestSCripts.CreateCustomerTest@47c62251]" name="logout" is-config="true" duration-ms="2145" started-at="2021-09-08T13:46:58Z" finished-at="2021-09-08T13:47:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[logout operation is success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:TestSCripts.CreateCustomerTest@47c62251]" name="teardown" is-config="true" duration-ms="1067" started-at="2021-09-08T13:47:01Z" finished-at="2021-09-08T13:47:02Z">
+          <reporter-output>
+            <line>
+              <![CDATA[all cookies are cleared]]>
+            </line>
+            <line>
+              <![CDATA[Broswer is closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestSCripts.CreateCustomerTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
